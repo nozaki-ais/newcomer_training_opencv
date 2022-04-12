@@ -1,9 +1,9 @@
 /**********************************************************************
    File    task_1.cpp
-   Author  abe taiki (19w)
-   Environment    ROS_inigo
-   OS       Ubuntu 14.04
-   StartDay 2019/4/11
+   Author  kyoto nozaki (21w)
+   Environment    ROS_melodic
+   OS       Ubuntu 18.04
+   StartDay 2021/4/12
 **********************************************************************/
 
 
