@@ -53,7 +53,8 @@ int main(int argc, char** argv){
   /* xtion_データのサブスクライバ */
   image_transport::ImageTransport it(nh);
   image_transport::Subscriber sub_rgb_image;
-  sub_rgb_image = it.subscribe("/camera/rgb/image_raw",1,imageCb);
+  sub_rgb_image = it.subscribe("/camera/rgb/image_raw",1,imageCb);//openni2を使用するとき
+  sub_rgb_image = it.subscribe("/usb_cam/image_raw",1,imageCb);//usb_camを使用するとき
 
   cv::namedWindow("display_gray",cv::WINDOW_AUTOSIZE);
 
