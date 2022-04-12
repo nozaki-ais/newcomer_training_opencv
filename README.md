@@ -1,2 +1,1 @@
-# newcomer_training_opencv
-新人研修2022_OpenCV
+# temp
