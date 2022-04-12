@@ -43,7 +43,7 @@ int main(int argc, char** argv){
 
 
   /* sample.pngを読み込む(pathは各自の環境に合わせてください) */
-  image = cv::imread("/home/taiki/taiki-project/catkin_ws/src/newcomer_training_opencv/image_data/sample.png",CV_LOAD_IMAGE_COLOR);
+  image = cv::imread("../image_data/sample.png",CV_LOAD_IMAGE_COLOR);
 
 
   /* 生データを表示してみよう */
